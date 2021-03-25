@@ -1,0 +1,31 @@
+html is not a case sensitive language
+<!-- <!DOCTYPE html> is a document type file based on html5 -->
+validator.w3.org --> used to validate html files.
+jigsaw.w3.org/css-validator/ --> used to validate css commands.
+
+My first html coding experience:
+<!DOCTYPE html>
+<!--a document type file based on html5, html: not a case sensitive language-->
+<html lang="en">
+  <head>
+    <title>My first web page</title>
+    <style>
+      img {
+        width: 150px;
+        border-radius: 30px;
+        float: left;
+        margin-right: 10px;
+      }
+      .username {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Images/milky_way.jpg" alt="An image of the Milky Way Galaxy" />
+    <p class="username">@dinasoltanit</p>
+    <p>
+      Feel free to contact me so we can talk about new discoveries in science
+    </p>
+  </body>
+</html>
